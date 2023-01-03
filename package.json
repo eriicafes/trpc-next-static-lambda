@@ -5,8 +5,7 @@
   "scripts": {
     "api:dev": "tsx watch api/local",
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "build": "next build && next export",
     "lint": "next lint"
   },
   "dependencies": {
