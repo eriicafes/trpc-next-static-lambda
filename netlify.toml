@@ -1,0 +1,10 @@
+[[redirects]]
+  from = "api/*"
+  to = "/.netlify/functions/trpc/:splat"
+  status = 200
+
+[functions]
+  directory = "api/functions"
+  external_node_modules = [
+    "express",
+  ]
